@@ -2,47 +2,63 @@
   <head>
     <title>mm</title>
     <meta content="" name="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link type="text/css" rel="stylesheet" href="./style/shared.css" />
   </head>
   <body>
-    <header>
-      <div>Marwa</div>
+    <div class="page-container">
+      <header>
+        <div class="logo">logo</div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li>Exprience</li>
+          <li>Contact</li>
+        </ul>
+      </header>
+      <main class="main">
+        <div class="text-side">
+          <p class="title-text">Hi, I’m Charles Xavier</p>
+          <p class="role-text">Frontend Developer</p>
+          <p class="bio-text">
+            Hi, I'm Charles Xavier, a web designer and developer with a passion
+            for crafting visually stunning and highly functional websites. With
+            a keen eye for detail and a strong grasp of both front-end and
+            back-end technologies.
+          </p>
 
-      <ul>
-        <li>Home</li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li>work</li>
-      </ul>
-    </header>
-
-    <section>
-      <div>
-        <p>Hi, I’m Charles Xavier</p>
-        <p>Frontend Developer</p>
-        <p>
-          Hi, I'm Charles Xavier, a web designer and developer with a passion
-          for crafting visually stunning and highly functional websites. With a
-          keen eye for detail and a strong grasp of both front-end and back-end
-          technologies.
-        </p>
-
-        <div>
-          <button>Hire Me</button>
-          <button>Lets Talk</button>
+          <div class="btn-container">
+            <button class="btn light-btn">Hire me</button>
+            <button class="btn dark-btn">Let's talk</button>
+          </div>
         </div>
-      </div>
-      <img />
-    </section>
+        <div class="image-side"><img src="./images/user-img.png" /></div>
+      </main>
 
-    <footer>
-      <p>Find Me On</p>
-      <ul>
-        <li>
-          <a href="..">
-            <img src="./images/icons/github.svg" />
-          </a>
-        </li>
-      </ul>
-    </footer>
+      <footer>
+        <p>Find me</p>
+        <ul>
+          <li>
+            <a><img src="./images/icons/facebook-icon.svg" /></a>
+          </li>
+
+          <li>
+            <a><img src="./images/icons/github-icon.svg" /></a>
+          </li>
+
+          <li>
+            <a><img src="./images/icons/web-icon.svg" /></a>
+          </li>
+          <li>
+            <a><img src="./images/icons/fi-brands-twitter-alt.svg" /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
