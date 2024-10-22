@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: aqua;
+  animation: move 2s 1s;
+}
+@keyframes move {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(300px);
+    opacity: 1;
+  }
+}

@@ -32,6 +32,12 @@
   gap: 10px;
 }
 
+.experience-item:hover {
+  background-color: #03acea36;
+  cursor: pointer;
+  transition: all 0.9s;
+}
+
 .experience-text {
   display: flex;
   flex-direction: column;
