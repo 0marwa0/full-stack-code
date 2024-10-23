@@ -1,0 +1,10 @@
+.color-item {
+  width: 70px;
+  height: 40px;
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 30px;
+}
+.img-product {
+  width: 100px;
+}
